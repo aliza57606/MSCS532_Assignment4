@@ -1,0 +1,31 @@
+ASSIGNMENT 4 - SUBMISSION STEPS
+
+1. Review Assignment4_Report.docx and replace any course/date detail if your LMS uses a different format.
+2. Create a new GitHub repository, for example:
+   MSCS532_Assignment4
+3. Open a terminal in this project folder and run:
+
+   git init
+   git add .
+   git commit -m "Add Assignment 4 heap data structures implementation"
+   git branch -M main
+   git remote add origin https://github.com/YOUR_USERNAME/MSCS532_Assignment4.git
+   git push -u origin main
+
+4. Confirm the GitHub repository contains:
+   - heapsort.py
+   - priority_queue.py
+   - scheduler_simulation.py
+   - benchmark.py
+   - benchmark_results.csv
+   - test_assignment4.py
+   - Assignment4_Report.docx
+   - README.md
+
+5. Copy the GitHub repository URL and submit that URL in the LMS.
+
+Before submitting, run:
+   python -m unittest -v
+   python benchmark.py
+
+The unit tests should pass. Benchmark times can change slightly between runs because timing depends on the computer and current system load.

@@ -1,0 +1,28 @@
+distribution,size,algorithm,average_seconds
+random,1000,Heapsort,0.003350
+random,1000,Quicksort,0.001939
+random,1000,Merge Sort,0.002566
+random,5000,Heapsort,0.022270
+random,5000,Quicksort,0.011215
+random,5000,Merge Sort,0.014961
+random,10000,Heapsort,0.050597
+random,10000,Quicksort,0.024874
+random,10000,Merge Sort,0.031688
+sorted,1000,Heapsort,0.003660
+sorted,1000,Quicksort,0.001979
+sorted,1000,Merge Sort,0.001562
+sorted,5000,Heapsort,0.023833
+sorted,5000,Quicksort,0.010775
+sorted,5000,Merge Sort,0.009703
+sorted,10000,Heapsort,0.052511
+sorted,10000,Quicksort,0.022089
+sorted,10000,Merge Sort,0.019346
+reverse,1000,Heapsort,0.003178
+reverse,1000,Quicksort,0.001847
+reverse,1000,Merge Sort,0.001631
+reverse,5000,Heapsort,0.023541
+reverse,5000,Quicksort,0.010535
+reverse,5000,Merge Sort,0.009716
+reverse,10000,Heapsort,0.045555
+reverse,10000,Quicksort,0.022995
+reverse,10000,Merge Sort,0.020766
